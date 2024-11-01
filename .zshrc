@@ -78,7 +78,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias bargit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # Shell integrations
 eval "$(fzf --zsh)"
