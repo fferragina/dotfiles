@@ -11,5 +11,6 @@ config = {
 	font = wezterm.font("JetBrains Mono", { weight = "Regular" }),
 	font_size = 11,
 	window_background_opacity = 0.9,
+	default_prog = { "zellij" },
 }
 return config
